@@ -3,13 +3,12 @@ header {
     margin-top: 3em;
 }
 
-body {
-    background-color: #E9E9E9;
-}
+
+
+
 
 #home {
     text-decoration: none;
-    color: black;
 }
 
 .logo {
@@ -21,16 +20,13 @@ body {
 }
 
 nav > a {
-    color: black;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .feed > a {
-    background-color: white;
     padding: 6px;
     text-decoration: none;
-    color: black;
 }
 
 .typemark {
@@ -45,16 +41,15 @@ nav > a {
 
 
 nav > a {
-    background-color: white;
     padding: 1em;
 }
 
+.entry-content {
+    max-width: 33em;
+    margin: 0 auto;
 
-.entry-content > p {
-    background-color: white;
-    padding: 1em;
-    font-family: 'Times New Roman', Times, serif;
 }
+
 
 h2 {
     font-weight: normal;
@@ -64,9 +59,6 @@ h2 {
     margin: 0;
 }
 
-.entry-title {
-    font-size: 6em;
-}
 
 section {
     display: grid;
@@ -85,9 +77,6 @@ article > img {
 }
 
 
-.entry-content > p {
-    max-width: 33rem;
-}
 
 .intro {
     margin-top: 0;
