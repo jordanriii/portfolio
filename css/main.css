@@ -85,7 +85,7 @@ article > img {
 }
 
 
-.entry-content {
+.entry-content > p {
     max-width: 33rem;
 }
 
