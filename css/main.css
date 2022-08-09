@@ -25,9 +25,10 @@ nav > a {
 }
 
 .feed > a {
-    padding: 6px;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: lowercase;
+    font-size: smaller;
+    font-style: italic;
 }
 
 .typemark {
