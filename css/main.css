@@ -1,12 +1,17 @@
+html { 
+  font-size: calc(1em + 1vmax);
+}
+
 body {
-    font-family: system-ui, sans-serif;
-    background-color: rgb(227, 229, 230);
+    font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+
+    background-color: #F5EFE0;
+
 }
 
 
 a {
-    color: black;
-    background-color: whitesmoke;
+    color: purple;
 }
 header {
     margin-bottom: 3em;
@@ -64,6 +69,7 @@ nav > a {
 
 h2 {
     font-weight: normal;
+
 }
 
 .home {
@@ -73,7 +79,7 @@ h2 {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(620px, 1fr));
     gap: 6px;
 }
 
@@ -122,9 +128,7 @@ article > img {
 }
 
 @media screen and (max-width: 600px) {
-    body {
-      background-color: olive;
-    }
+
 
     main {
         display: grid;
