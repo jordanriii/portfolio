@@ -1,9 +1,21 @@
+body {
+    font-family: system-ui, sans-serif;
+    background-color: rgb(227, 229, 230);
+}
+
+
+a {
+    color: black;
+    background-color: whitesmoke;
+}
 header {
     margin-bottom: 3em;
     margin-top: 3em;
 }
 
-
+.intro {
+    font-size: 4em;
+}
 
 
 
@@ -21,19 +33,16 @@ header {
 
 nav > a {
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .feed > a {
     text-decoration: none;
     text-transform: lowercase;
     font-size: smaller;
-    font-style: italic;
 }
 
 .typemark {
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .blurb {
@@ -62,7 +71,7 @@ h2 {
 }
 
 
-section {
+.portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 6px;
@@ -111,3 +120,17 @@ article > img {
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+    .intro {
+        font-size: 2em;
+    }
+  }
